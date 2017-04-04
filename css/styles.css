@@ -1,0 +1,13 @@
+.list {
+  color: blue;
+  cursor: pointer;
+}
+.list:hover {
+  text-decoration: underline;
+}
+h1 {
+  text-align: center;
+}
+.withList {
+  display: none;
+}

@@ -9,5 +9,30 @@
     <title>To-Do</title>
   </head>
   <body>
+    <div class="container">
+      <h1 class="well">To-Do List</h1>
+      <div class="row">
+<!--User Input-->
+        <div class="col-sm-6">
+          <form class="" id="formOne">
+            <div class="form-group">
+              <label for="listItem"></label>
+              <input type="text" class="form-control" id="listItem">
+            </div>
+            <button type="submit" name="button">Normal To-do</button>
+            <button type="button" id="important">Important To-do!</button>
+          </form>
+        </div>
+  <!--Resulting list-->
+        <div class="col-sm-6">
+          <h2>My To-Do List</h2>
+          <ol id="result">
+
+          </ol>
+          <h4 class="withList">Click an item to remove it from your list</h4>
+        </div>
+
+      </div>
+    </div>
   </body>
 </html>
